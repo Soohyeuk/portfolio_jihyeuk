@@ -1,0 +1,15 @@
+@import url('/master.css');
+
+body {
+    background-image: url(assets/IMG_1690.jpg);
+    background-size: cover;
+}
+
+.hero-container {
+    color: #fff;
+    font-size: 150px;
+
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
