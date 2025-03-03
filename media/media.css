@@ -1,9 +1,12 @@
 @import url('/master.css');
-*{
+
+
+* {
     box-sizing: border-box;
 }
+
 .header-container {
-    background-color: #a29a00;;
+    background-color: #97b2db;
 }
 
 .hero-container {
@@ -16,47 +19,49 @@
 
 .title-container {
     font-size: 70px;
+    display: flex;
+    gap: 50px;
 }
 
 .hero-content {
     width: 100%;
     height: 70vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.biography-content {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    width: 25%; 
-    height: 100%;
-    text-indent: 30px;
-    row-gap: 30px;
-}
-
-.image-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 30px;
-}
-.image-content p {
-    text-align: end;
-    margin-bottom: 5px;
-}
-.image-content #profile-img {
-    width: 450px;
-    height: auto;
-}
 
 footer{
-    background-color: #a29a00;
+    background-color: #97b2db;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
     height: 70px;
+}
+
+.biography-content {
+    width: 100%;
+    height: 100%;
+}
+
+.video-grid {
+    display: grid;
+    background-color: #817873;
+    min-height: 70vh;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 600px));
+    justify-content: center;
+}
+
+.video-item {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-item iframe {
+    width: 75%;
+    height: 60%;
 }

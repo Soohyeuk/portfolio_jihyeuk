@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jihyeuk Choi | Cellist</title>
-    <link rel="stylesheet" href="biography.css">
+    <link rel="stylesheet" href="/biography/biography.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <header>
@@ -15,12 +15,25 @@
         <div class="right">
             <a href="/biography/">BIOGRAPHY</a>
             <a href="/media/">MEDIA</a>
-            <a href="">EVENT</a>
+            <a href="/event/">EVENT</a>
             <a href="">REPERTOIRE</a>
             <a href="">CONTACT</a>
         </div>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <p>&#9776;</p> <!-- Hamburger symbol -->
+        </div>
     </div>
 </header>
+
+<div class="hamburger-menu">
+    <a href="/biography/">BIOGRAPHY</a>
+    <a href="/media/">MEDIA</a>
+    <a href="/event/">EVENT</a>
+    <a href="">REPERTOIRE</a>
+    <a href="">CONTACT</a>
+</div>
+
+
 <body>
     <div class="hero-container">
         <div class="title-container">
@@ -75,6 +88,7 @@ Choi also has appeared in masterclasses with Sir Steven Isserlis, Alban Gerhardt
             </div>
         </div>
     </div>
+    <script src="/app.js"></script>
 </body>
 <footer>
     <div class="footer-container">

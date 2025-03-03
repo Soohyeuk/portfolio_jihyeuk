@@ -3,6 +3,10 @@
 body {
     background-image: url(assets/IMG_1690.jpg);
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+    margin: 0;
 }
 
 .hero-container {
@@ -13,3 +17,48 @@ body {
     padding-top: 4%;
 }
 
+
+@media screen and (min-width: 1500px) {
+    .hero-container {
+        font-size: 150px;
+        padding-left: 10%;
+        padding-top: 4%;
+    }
+    
+}
+
+/* Max-width Queries */
+@media screen and (max-width: 1500px) {
+    .hero-container {
+        font-size: 100px;
+        padding-left: 10%;
+        padding-top: 4%;
+    }    
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-container {
+        font-size: 100px;
+        padding-left: 10%;
+        padding-top: 4%;
+    }   
+}
+
+@media screen and (max-width: 1100px) {
+    .hero-container {
+        font-size: 90px;
+    
+        padding-left: 10%;
+        padding-top: 4%;
+    } 
+}
+
+/* mobile */ 
+@media screen and (max-width: 768px) {
+    .hero-container {
+        font-size: 70px;
+    
+        padding-left: 10%;
+        padding-top: 4%;
+    }    
+}

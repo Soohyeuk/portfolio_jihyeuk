@@ -1,4 +1,6 @@
 @import url('/master.css');
+
+
 *{
     box-sizing: border-box;
 }
@@ -26,11 +28,11 @@
 }
 
 .biography-content {
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    width: 25%; 
+    width: 20%; 
     height: 100%;
     text-indent: 30px;
     row-gap: 30px;
