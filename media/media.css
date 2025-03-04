@@ -48,7 +48,6 @@ footer{
 
 .video-grid {
     display: grid;
-    background-color: #817873;
     min-height: 70vh;
     grid-template-columns: repeat(auto-fit, minmax(150px, 600px));
     justify-content: center;
